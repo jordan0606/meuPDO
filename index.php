@@ -20,6 +20,8 @@ if (!isset($_SESSION['logadoM']) && $_SESSION['logadoM'] != true) {
     </head>
     <body>
         <h1>Página Inicial</h1>
+        <button onclick="location.href='view/cadPessoaF.php'">Cadastro Pessoa Fisica</button>
+        <button onclick="location.href='view/cadPessoaJ.php'">Cadastro Pessoa Juridica</button>
         <br><br>
         <button onclick="location.href='view/cadUsuario.php'">Cadastro de Usuário</button>
     </body>
